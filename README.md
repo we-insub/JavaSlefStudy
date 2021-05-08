@@ -14,3 +14,6 @@ SpringFFramework
 BeanPostProcessor - 
 *Bean 객체를 정의 할 때 init-method 속성을 설정하면 객체가 생성될 때 자동으로 홑출될 메소드를 지정할수 있으며
 *BeanPostProcessor 인터페이스를 구현한 클래스를 정의하면 Bean 객체를 생성할 때 호출될 init 메서드 호출을 가로채 다른 메서드를 호출 할 수 있다.
+*postProcessBeforeinitalization : init-method 에 지정된 메서드가 호출되기 전에
+*postProcessBeforeinitalization : init-method에 지정된 메서드가 호출된 후에 호출된다
+*init-method 가 지정되어 있지 않더라도 자동으로 호출된다.
