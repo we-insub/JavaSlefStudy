@@ -9,3 +9,8 @@ SpringFFramework
 
 각 디렉토리별이아닌 상위에 있는 pom.xml / beans.xml 은 기본적인 제가 사용한버전입니다.
 매번 이 기본적인것들을 사용해서 기본틀로 잡고, 그위에 필요한것들과, 메소드 선언, 주소값, ID, Class 등 작성하여사용하였습니다.
+
+
+BeanPostProcessor - 
+*Bean 객체를 정의 할 때 init-method 속성을 설정하면 객체가 생성될 때 자동으로 홑출될 메소드를 지정할수 있으며
+*BeanPostProcessor 인터페이스를 구현한 클래스를 정의하면 Bean 객체를 생성할 때 호출될 init 메서드 호출을 가로채 다른 메서드를 호출 할 수 있다.
