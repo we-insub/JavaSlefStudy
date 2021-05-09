@@ -98,4 +98,7 @@ set data1 / date2 를 만들어서 주입하는 개념이다.
 *byType : 빈 객채의 프로퍼티 타입과 정의된 빈의 타입이 일치할 경우 주입이 된다.
 
 * 이때 동일 타입의 빈이 두개이상 정의 되어 있다면 충돌이 발생되어 오류가 발생한다.
-<bean id="data3" = clanss="kr.co.~~~~datacclass2/>	private Dataclass2 obj1; , private DataClass2 obj2;
+<bean id="data3" = clanss="kr.co.~~~~datacclass2/>	
+			   private Dataclass2 obj1; , private DataClass2 obj2;
+			   
+1111
