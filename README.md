@@ -101,4 +101,16 @@ set data1 / date2 를 만들어서 주입하는 개념이다.
 <bean id="data3" = clanss="kr.co.~~~~datacclass2/>	
 			   private Dataclass2 obj1; , private DataClass2 obj2;
 			   
-1111
+*constructor : 생성자의 매게 변수 타입과 정의된 빈의 타입이 일치할 경우 주입된다.
+이때 동일 타입의 빈이 두개이상 정의되어 있으면 오류가 발생한다.
+<bean id="data30" class"kr.co.~~~~~~DataClass3"/>
+
+public Testbean3(DataClass3 data30, Dataclass3 data33){
+this.data30 = data30;
+this.data33 = data33l
+}
+정수형 문자열은 주입 되지 않는다.
+
+<bean id='obj5' class='kr.co.softcampus.beans.TestBean3' autowire="constructor"/>
+생성자와 일치하는것을 찾아서 자동으로 대입해 준다.
+
