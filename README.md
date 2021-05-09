@@ -59,3 +59,22 @@ index =  지정된 값을 주입할 생성자의 매게변수 인덱스 번호
 Object 로 벨류값을 넣는이유는 다양한 데이터 형태로 값을 집어넣을 것이기 때문이다.
 Object = 자바에서는 모든 클래스의 객체의 값을 모두 받을 수 있다.
 .xml 에서 맵의 선언은 entry 태그로 묶어서 사용 한다.
+
+	private Map<String, Object> map1;
+Object 로 벨류값을 넣는이유는 다양한 데이터 형태로 값을 집어넣을 것이기 때문이다.
+Object = 자바에서는 모든 클래스의 객체의 값을 모두 받을 수 있다.
+	
+	
+	<property name="map1">
+		<map>
+			<entry key="a1" value='문자열'/> 문자열 스트링 입력 
+			<entry key='a2' value='100' value-type='int'/> 벨류 타입을 선언하지않으면 스트링타입으로 입력이 된다. 그러므로 데이터타입선언
+			<entry key='a3'> 
+				<bean class='kr.co.softcampus.beans.DataBean'/> 객체를 주입하기.
+			</entry>
+			<entry key='a4' value-ref="data_bean"/> 이미 정해져 있는 Bean vlaue_ref 를 주입해주면 사용이 가능하다.
+			<entry key='a5'> 리스트를 주입 한다.
+
+
+흠
+ㅇㅇ
