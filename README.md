@@ -44,3 +44,10 @@ index =  지정된 값을 주입할 생성자의 매게변수 인덱스 번호
 		}
 		을 가정해보자, name의 data1은 setData1에 들어가고 value값은 괄호
 		데이터 data1에 주입되게 된다. 데이터형을 선언해 주어야 한다.
+		
+		<property name="data6" ref='data_bean'/> ㅌ
+		데이터 data1에 주입되게 된다. 데이터형을 선언해 주어야 한다 
+		.xml 에서 
+		데이터 data1에 주입되게 된다. 데이터형을 선언해 주어야 한다.<property name="data6" ref='data_bean'/> 
+		
+		데이터 data1에 주입되게 된다. 데이터형을 선언해 주어야 한다
