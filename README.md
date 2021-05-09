@@ -112,5 +112,6 @@ this.data33 = data33l
 정수형 문자열은 주입 되지 않는다.
 
 <bean id='obj5' class='kr.co.softcampus.beans.TestBean3' autowire="constructor"/>
+
 생성자와 일치하는것을 찾아서 자동으로 대입해 준다.
 
