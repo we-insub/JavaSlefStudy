@@ -77,12 +77,19 @@ Object = 자바에서는 모든 클래스의 객체의 값을 모두 받을 수 
 
 
 *자동 주입(AutoWire)
+
 *Bean 을 정의 할 떄 주입할 객체는 생성자를 통한 주입이나 Setter 를 통한 주입을 사용 했다.
+
 *Spring 에서는 객체를 주입 할 때 자동으로 주입될 수 있도록 설정 할 수 있다.
+
 *자동 주입은 이름, 타입, 생성자를 통할 수 있으며 auto wire 라는 용어로 부른다.
+
 *이름을 통한 주입
+
 *byName : 빈 객체의 프로퍼티 이름과 정의된 빈의 이름이 같은 것을 찾아 자동으로 주입한다.
+
 <bean id="data1" class="kr.co.~~~~~~dataclass1"/>	private DataClass1 data1; 
+
 <bean id="data2" class="kr.co.~~~~~~datacalss2"/>	private DataClass2 data2;
 
 set data1 / date2 를 만들어서 주입하는 개념이다.
