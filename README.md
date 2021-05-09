@@ -17,3 +17,9 @@ BeanPostProcessor -
 *postProcessBeforeinitalization : init-method 에 지정된 메서드가 호출되기 전에
 *postProcessBeforeinitalization : init-method에 지정된 메서드가 호출된 후에 호출된다
 *init-method 가 지정되어 있지 않더라도 자동으로 호출된다.
+
+
+*Dependency Injection (의존성 주입)
+*의존성 주입은 Spring 에서 아주 중요한 개념이자 장점이다.
+*Bean 객체를 생성 할 때 Bean 객체가 관리할 값이나 객체를 주입하는 것을 의미 한다.
+*Bean 객채를 생성 한 후 Bean 객체가 가질 기본 값을 자바 코드로 설정하는 것이 아닌 Bean을 정의하는 XML 코드에서 정의하는 개념입니다.
