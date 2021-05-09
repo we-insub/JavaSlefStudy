@@ -48,4 +48,8 @@ index =  지정된 값을 주입할 생성자의 매게변수 인덱스 번호
 		<property name="data6" ref='data_bean'/> ㅌ
 		데이터 data1에 주입되게 된다. 데이터형을 선언해 주어야 한다 
 		.xml 에서 <property name="data6" ref='data_bean'/> 정해진 Bean 을 주입할땐 Ref를 사용하면 된다. 
-		
+
+
+
+컬렉션 타입 
+		.xml 에서 <property name="data6" ref='data_bean'/> 정해진 Bean 을 주입할땐 Ref를 사용하면 된다. (
