@@ -93,3 +93,8 @@ Object = 자바에서는 모든 클래스의 객체의 값을 모두 받을 수 
 <bean id="data2" class="kr.co.~~~~~~datacalss2"/>	private DataClass2 data2;
 
 set data1 / date2 를 만들어서 주입하는 개념이다.
+
+*타입을 통한 주입
+*byType : 빈 객채의 프로퍼티 타입과 정의된 빈의 타입이 일치할 경우 주입이 된다.
+
+* 이때 동
